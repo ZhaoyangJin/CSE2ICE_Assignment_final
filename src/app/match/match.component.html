@@ -1,5 +1,5 @@
 <div class="container" >
-<table class="table table-hover" *ngFor="let table of m?.matches|sortdate|paginate:{itemsPerPage:10,currentPage: p}"
+<table class="table table-hover" *ngFor="let table of m?.matches|sortdate|paginate:{itemsPerPage:5,currentPage: p}"
  routerLink="/matchdetail/{{table.id}}">
 <thead>
       <tr>
